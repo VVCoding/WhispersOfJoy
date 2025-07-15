@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Whispers of Joy
+
+A voice of hope built for those who need encouragement. This website connects volunteers around the world to spread hope through personalized voicemails and motivational stories.
+
+## About
+
+Whispers of Joy is dedicated to helping underprivileged individuals around the world, with a special focus on children. Our volunteers create personalized voicenotes that provide encouragement to people about to undergo surgery and share motivational stories that inspire hope and resilience.
+
+**Over 10,000 lives touched** through our global network of volunteers.
+
+## Features
+
+- 🎙️ **Encouragement Voicemails**: Supportive messages for those facing medical procedures
+- 📖 **Story Voicemails**: Inspiring tales and motivational stories for children
+- 🌍 **Global Reach**: Connecting voices across continents
+- 💜 **Community Driven**: Powered by compassionate volunteers worldwide
+
+## Tech Stack
+
+This is a [Next.js](https://nextjs.org) project built with:
+- **Next.js 15** - React framework
+- **Tailwind CSS** - Styling
+- **TypeScript** - Type safety
+- **Bun** - Package manager and runtime
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+Then, run the development server:
+
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website is deployed on Netlify. The build configuration is handled automatically through the `netlify.toml` file.
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+- **Email**: hello@whispersofjoy.org
+- **Phone**: +1 (555) 123-HOPE
+- **Discord**: WhispersOfJoy#1234
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Made with 💜 for spreading hope worldwide.*
